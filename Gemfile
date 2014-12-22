@@ -15,6 +15,8 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
+gem 'rb-readline'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 # Use Uglifier as compressor for JavaScript assets
