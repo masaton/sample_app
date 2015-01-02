@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/masato/rails_projects/demo_app/db/migrate"
+		},
+    {
+      "name": "sample_app",
+      "path": "/home/masato/rails_projects/sample_app"
+    }
+	]
+}
