@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"user",
+				"user_with_same_email"
+			],
+			[
+				"ha",
+				"have_title"
+			],
+			[
 				"static",
 				"static_pages_index_path"
 			],
@@ -15,45 +27,37 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 488,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_footer.html.erb",
-			"settings":
-			{
-				"buffer_size": 323,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_header.html.erb",
-			"settings":
-			{
-				"buffer_size": 409,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/custom.css.scss",
-			"settings":
-			{
-				"buffer_size": 1161,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 313.0,
+		"height": 310.0,
 		"selected_items":
 		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"preferee",
+				"Preferences: Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"",
 				"Set Syntax: Ruby on Rails"
@@ -73,13 +77,9 @@
 			[
 				"packa",
 				"Package Control: Add Repository"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 472.0
 	},
 	"console":
 	{
@@ -100,26 +100,52 @@
 	},
 	"expanded_folders":
 	[
+		"/home/masato/rails_projects/sample_app",
+		"/home/masato/rails_projects/sample_app/app",
+		"/home/masato/rails_projects/sample_app/app/helpers",
+		"/home/masato/rails_projects/sample_app/app/models",
+		"/home/masato/rails_projects/sample_app/bin",
+		"/home/masato/rails_projects/sample_app/spec",
+		"/home/masato/rails_projects/sample_app/spec/helpers"
 	],
 	"file_history":
 	[
+		"/home/masato/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/masato/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/masato/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/masato/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/masato/rails_projects/sample_app/app/helpers/users_helper.rb",
+		"/home/masato/rails_projects/sample_app/Gemfile",
+		"/home/masato/rails_projects/sample_app/app/models/user.rb",
+		"/home/masato/rails_projects/sample_app/spec/helpers/application_helper_spec.rb",
+		"/home/masato/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/home/masato/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/masato/rails_projects/sample_app/db/migrate/20150104084953_add_index_to_users_email.rb",
+		"/home/masato/rails_projects/sample_app/spec/support/utilities.rb",
+		"/home/masato/rails_projects/sample_app/db/migrate/20150102235745_create_users.rb",
+		"/home/masato/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/masato/rails_projects/sample_app/.git/MERGE_MSG",
+		"/home/masato/rails_projects/sample_app/log.txt",
+		"/home/masato/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/home/masato/rails_projects/sample_app/config/routes.rb",
+		"/home/masato/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/home/masato/rails_projects/sample_app/app/views/static_pages/new.html.erb",
+		"/home/masato/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/home/masato/rails_projects/sample_app/app/views/layouts/_header.html.erb",
+		"/home/masato/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
+		"/home/masato/rails_projects/sample_app/app/assets/stylesheets/application.css",
+		"/home/masato/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/home/masato/rails_projects/sample_app/sample_app.sublime-project",
 		"/home/masato/rails_projects/sample_app/config/application.rb",
 		"/home/masato/rails_projects/sample_app/app/views/layouts/_shim.html.erb",
-		"/home/masato/rails_projects/sample_app/app/views/static_pages/home.html.erb",
-		"/home/masato/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
-		"/home/masato/rails_projects/sample_app/Gemfile",
 		"/home/masato/rails_projects/sample_app/example_user.rb",
 		"/home/masato/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
 		"/home/masato/rails_projects/sample_app/app/views/static_pages/help.html.erb",
-		"/home/masato/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
 		"/home/masato/rails_projects/example_user.rb",
 		"/home/masato/rails_projects/sample_app/app/helpers/application_helper.rb",
-		"/home/masato/rails_projects/sample_app/app/views/layouts/application.html.erb",
 		"/home/masato/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
-		"/home/masato/rails_projects/sample_app/config/routes.rb",
 		"/home/masato/rails_projects/sample_app/spec/spec_helper.rb",
 		"/home/masato/rails_projects/sample_app/app/views/static_pages/about.html.erb",
-		"/home/masato/rails_projects/sample_app/.git/MERGE_MSG",
 		"/home/masato/rails_projects/sample_app/config/initializers/secret_token.rb",
 		"/home/masato/rails_projects/sample_app/.gitignore",
 		"/home/masato/rails_projects/sample_app/README.rdoc",
@@ -136,8 +162,7 @@
 		"/home/masato/rails_projects/first_app/Gemfile",
 		"/home/masato/rails_projects/first_app/.gitignore",
 		"/home/masato/rails_projects/Gemfile",
-		"/home/masato/.bashrc",
-		"/home/masato/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+		"/home/masato/.bashrc"
 	],
 	"find":
 	{
@@ -155,6 +180,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"theme",
+			"bcrypt",
 			"attributes",
 			"Ruby on Rails Tutotiral Sample App",
 			"secrets",
@@ -177,123 +204,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/layouts/application.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 488,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								469,
-								469
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/layouts/_footer.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								316,
-								316
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/_header.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 409,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								400,
-								400
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/assets/stylesheets/custom.css.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1161,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1161,
-								1161
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1219.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -348,11 +260,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -370,7 +282,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 205.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
