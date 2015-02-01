@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"res",
+				"respond_to"
+			],
+			[
 				"wrong",
 				"wrong_user"
 			],
@@ -40,42 +44,18 @@
 	"buffers":
 	[
 		{
-			"file": "spec/requests/authentication_pages_spec.rb",
-			"settings":
-			{
-				"buffer_size": 2912,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "spec/requests/user_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 2801,
+				"buffer_size": 4279,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/users_controller.rb",
+			"file": "spec/requests/authentication_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1030,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/helpers/sessions_helper.rb",
-			"settings":
-			{
-				"buffer_size": 657,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 719,
+				"buffer_size": 4956,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,41 +139,51 @@
 		"/home/masato/rails_projects/sample_app",
 		"/home/masato/rails_projects/sample_app/app",
 		"/home/masato/rails_projects/sample_app/app/controllers",
+		"/home/masato/rails_projects/sample_app/app/controllers/concerns",
 		"/home/masato/rails_projects/sample_app/app/helpers",
-		"/home/masato/rails_projects/sample_app/app/models",
 		"/home/masato/rails_projects/sample_app/app/views",
-		"/home/masato/rails_projects/sample_app/app/views/layouts",
+		"/home/masato/rails_projects/sample_app/app/views/sessions",
+		"/home/masato/rails_projects/sample_app/app/views/shared",
 		"/home/masato/rails_projects/sample_app/app/views/users",
+		"/home/masato/rails_projects/sample_app/bin",
+		"/home/masato/rails_projects/sample_app/lib",
+		"/home/masato/rails_projects/sample_app/lib/tasks",
+		"/home/masato/rails_projects/sample_app/log",
 		"/home/masato/rails_projects/sample_app/spec",
 		"/home/masato/rails_projects/sample_app/spec/requests",
-		"/home/masato/rails_projects/sample_app/spec/support",
-		"/home/masato/rails_projects/sample_app/vendor"
+		"/home/masato/rails_projects/sample_app/spec/support"
 	],
 	"file_history":
 	[
-		"/home/masato/rails_projects/sample_app/Gemfile",
-		"/home/masato/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
 		"/home/masato/rails_projects/sample_app/app/controllers/users_controller.rb",
-		"/home/masato/rails_projects/sample_app/app/helpers/sessions_helper.rb",
-		"/home/masato/rails_projects/sample_app/spec/support/utilities.rb",
 		"/home/masato/rails_projects/sample_app/app/views/users/edit.html.erb",
-		"/home/masato/rails_projects/sample_app/app/views/layouts/_header.html.erb",
-		"/home/masato/rails_projects/sample_app/app/controllers/sessions_controller.rb",
+		"/home/masato/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/home/masato/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
 		"/home/masato/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb",
-		"/home/masato/rails_projects/sample_app/app/views/sessions/new.html.erb",
+		"/home/masato/rails_projects/sample_app/app/views/users/_fields.html.erb",
 		"/home/masato/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/home/masato/rails_projects/sample_app/spec/factories.rb",
+		"/home/masato/rails_projects/sample_app/lib/tasks/sample_data.rake",
+		"/home/masato/rails_projects/sample_app/db/migrate/20150129153009_add_admin_to_users.rb",
+		"/home/masato/rails_projects/sample_app/app/views/users/_user.html.erb",
+		"/home/masato/rails_projects/sample_app/app/views/users/index.html.erb",
 		"/home/masato/rails_projects/sample_app/app/models/user.rb",
+		"/home/masato/rails_projects/sample_app/app/helpers/sessions_helper.rb",
+		"/home/masato/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/masato/rails_projects/sample_app/app/views/layouts/_header.html.erb",
+		"/home/masato/rails_projects/sample_app/Gemfile",
+		"/home/masato/rails_projects/sample_app/app/controllers/sessions_controller.rb",
+		"/home/masato/rails_projects/sample_app/spec/support/utilities.rb",
+		"/home/masato/rails_projects/sample_app/app/views/sessions/new.html.erb",
 		"/home/masato/rails_projects/sample_app/app/assets/javascripts/application.js",
 		"/home/masato/rails_projects/sample_app/db/migrate/20150124024552_add_remember_token_to_users.rb",
 		"/home/masato/rails_projects/sample_app/app/controllers/application_controller.rb",
 		"/home/masato/rails_projects/sample_app/app/views/layouts/application.html.erb",
-		"/home/masato/rails_projects/sample_app/app/views/users/new.html.erb",
 		"/home/masato/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
 		"/home/masato/rails_projects/sample_app/config/routes.rb",
 		"/home/masato/rails_projects/sample_app/app/views/users/show.html.erb",
 		"/home/masato/rails_projects/sample_app/app/helpers/users_helper.rb",
 		"/home/masato/rails_projects/sample_app/config/environments/production.rb",
-		"/home/masato/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
 		"/home/masato/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
 		"/home/masato/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/masato/.config/sublime-text-3/Packages/User/MozcInput.sublime-settings",
@@ -254,6 +244,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"admin",
+			"for-non",
+			"response",
+			"click",
+			"sign_in",
+			"authenticat",
+			"authentication",
+			"encypt",
+			"correct_user",
 			"correct",
 			"'\n",
 			"redirect",
@@ -288,54 +287,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/requests/authentication_pages_spec.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2912,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2466,
-								2466
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1290.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "spec/requests/user_pages_spec.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2801,
+						"buffer_size": 4279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2675,
-								2675
+								4268,
+								4268
 							]
 						],
 						"settings":
@@ -345,100 +314,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1171.0,
+						"translation.y": 2363.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/controllers/users_controller.rb",
+					"buffer": 1,
+					"file": "spec/requests/authentication_pages_spec.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 4956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								918,
-								918
+								4932,
+								4932
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1989.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/helpers/sessions_helper.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								187,
-								199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 408.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/models/user.rb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								547,
-								547
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -517,7 +426,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 261.0,
+	"side_bar_width": 241.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
