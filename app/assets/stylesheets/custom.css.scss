@@ -194,6 +194,10 @@ input {
 }
 
 .content {
+  display: block;
+}
+
+.timestamp {
   color: $grayLight;
 }
 

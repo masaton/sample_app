@@ -31,6 +31,28 @@ describe "StaticPages" do
         end
       end
     end
+
+    describe "single post" do
+      let(:user) { FactoryGirl.create(:user) }
+      before do
+        FactoryGirl.create(:micropost, user: user, content: "Lorem ipsum")
+        sign_in user
+        visit root_path
+      end
+      it { should have_content('1 micropost') }
+    end
+
+    describe "multi post" do
+      let(:user) { FactoryGirl.create(:user) }
+      before do
+        FactoryGirl.create(:micropost, user: user, content: "Lorem ipsum")
+        FactoryGirl.create(:micropost, user: user, content: "Dolor sit amet")
+        sign_in user
+        visit root_path
+      end
+      it { should have_content('2 microposts') }
+    end
+
   end
 
   describe "Help page" do

@@ -42,4 +42,30 @@ describe "Micropost pages" do
       end
     end
   end
+
+  describe "pagination" do
+    before do
+      40.times { FactoryGirl.create(:micropost, user: user) }
+      visit root_path
+    end
+    after { Micropost.delete_all }
+
+    it { should have_selector('div.pagination')  }
+    it "should list each micropost" do
+      user.microposts.paginate(page: 1).each do |micropost|
+        expect(page).to have_selector('li', text: micropost.content)
+      end
+    end
+  end
+
+  # can't Understand
+  describe "other user's micropost without delete_link" do
+    let(:other_user) { FactoryGirl.create(:user) }
+    before do
+      FactoryGirl.create(:micropost, user: other_user)
+      visit user_path(other_user)
+    end
+
+    it { should_not have_link('delete') }
+  end
 end
